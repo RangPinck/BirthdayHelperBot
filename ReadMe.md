@@ -5,6 +5,11 @@ This bot can help you not to miss important dates and birthdays and please the b
 ## Table of contents
 
 1. Full Specification
+2. Technologies used
+3. Description of commits
+4. [Database part](./database/ReadMe.md)
+5. [API part](./apis/ReadMe.md)
+6. [Bots part](./telegram_bot/ReadMe.md)
 
 <!--полная спецификация проекта-->
 ## Full Specification
