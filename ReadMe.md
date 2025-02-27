@@ -7,7 +7,7 @@ This bot can help you not to miss important dates and birthdays and please the b
 1.
 
 <!--описание коммитов-->
-## Описание коммитов
+# Description of commits
 
 | Название | Описание                                                        |
 |----------|-----------------------------------------------------------------|
