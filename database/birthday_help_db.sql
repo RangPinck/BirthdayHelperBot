@@ -2,7 +2,7 @@
 --drop table user_friends
 --drop table users_gifts
 
-create table user_data(
+CREATE TABLE user_data(
 	id_user int constraint pk_user primary key constraint check_user_id check (id_user > 0),
 	user_name text not null constraint check_lenth_user_name check (char_length(user_name) > 0),
 	holiday_date date constraint check_holiday_date check (holiday_date <= CURRENT_DATE AND holiday_date >= (CURRENT_DATE - interval '100 years')),
