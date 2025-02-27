@@ -20,7 +20,7 @@ It allows you to:
 - check the availability of a gift if it is from a popular market place;
 - specify your own gift option with its price;
 - get a list of gifts in a certain amount range;
-- make combinations of gifts for a given amount;
+- make combinations of gifts for a given amount.
 
 <!--описание коммитов-->
 ## Description of commits
