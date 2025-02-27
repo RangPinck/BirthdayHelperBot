@@ -22,6 +22,13 @@ It allows you to:
 - get a list of gifts in a certain amount range;
 - make combinations of gifts for a given amount.
 
+## Technologies used
+
+- C# DotNETCore 9.0
+- ASP DotNETCore 9.0
+- Postgres (PostgreSQL)
+- Docker
+
 <!--описание коммитов-->
 ## Description of commits
 
