@@ -2,12 +2,12 @@
 
 This bot can help you not to miss important dates and birthdays and please the birthday boy with important gifts for him according to your budget.
 
-# Table of contents
+## Table of contents
 
 1.
 
 <!--описание коммитов-->
-# Description of commits
+## Description of commits
 
 | Название | Описание                                                        |
 |----------|-----------------------------------------------------------------|
