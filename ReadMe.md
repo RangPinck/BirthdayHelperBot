@@ -32,6 +32,7 @@ It allows you to:
 - C# DotNETCore 9.0
 - ASP DotNETCore 9.0
 - Postgres (PostgreSQL)
+- Telegram Bots Book 22.4.4
 - Docker
 
 <!--описание коммитов-->
