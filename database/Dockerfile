@@ -1,6 +1,6 @@
 FROM postgres:17.4
-COPY birthday_help_db.sql /docker-entrypoint-initdb.d/
+COPY birthday_help_db.sql /docker-entrypoint-initdb.d/birthday_help_db.sql
 
-ENV POSTGRES_USER=admin
-ENV POSTGRES_PASSWORD=123456
-ENV POSTGRES_DB=birthday_help_db
+# ENV POSTGRES_USER=admin
+# ENV POSTGRES_PASSWORD=123456
+# ENV POSTGRES_DB=birthday_help_db

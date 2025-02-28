@@ -1,15 +1,21 @@
+version: '3.8'
+
 services:
   birthday_help_db:
-    image: "postgres:17.4"
-    ports:
-      - 5438:5432
-    environment:
-      - POSTGRES_PASSWORD=123456
-      - POSTGRES_USER=admin
-    volumes:
-      - ./database/:/docker-entrypoint-initdb.d
-      - pgdata:/var/lib/postgresql/data
     container_name: birthday_help_db
-      
+    image: "postgres:17.4"
+    build:
+      context: ./database
+      dockerfile: Dockerfile
+    ports:
+      - "5438:5432"
+    environment:
+      - POSTGRES_PASSWORD=user_service
+      - POSTGRES_USER=admin
+      - POSTGRES_DB=birthday_help_db
+    volumes:
+      # - ./database/:/docker-entrypoint-initdb.d
+      - pgdata:/var/lib/postgresql/data
+
 volumes:
   pgdata:

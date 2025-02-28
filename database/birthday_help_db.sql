@@ -5,6 +5,7 @@
 create database birthday_help_db;
 create role admin with password '123456';
 grant all privileges on database birthday_help_db to admin;
+alter role "admin" superuser createdb createrole inherit login replication nobypassrls;
 
 create table user_data(
 	id_user int constraint pk_user primary key constraint check_user_id check (id_user > 0),
